@@ -1,0 +1,46 @@
+﻿@using ASP_Demo_Archi_DAL.Models
+@model List<Movie>
+@*
+    @model accueil le SEUL ET UNIQUE objet que la vue peut accepter
+    et J'y accède dans la vue grâce à Model
+*@
+<fieldset>
+    <legend>Tout mes films</legend>
+    <table class="table table-bordered table-striped tablegreen">
+        <thead>
+            <tr>
+                <th>Titre</th>
+                <th>Actions</th>
+
+            </tr>
+        </thead>
+        @foreach (Movie m in Model)
+        {
+            <tr>
+                <td>@m.Title</td>
+                <td>
+                    <a class="btn btn-outline-dark"
+                       asp-controller="Movie"
+                       asp-action="Details"
+                       asp-route-id="@m.Id">
+                        Détails
+                    </a>
+                    <a class="btn btn-outline-dark"
+                       asp-controller="Movie"
+                       asp-action="Edit"
+                       asp-route-id="@m.Id">
+                        Modifier
+                    </a>
+                    <a class="btn btn-outline-dark"
+                       asp-controller="Movie"
+                       asp-action="Delete"
+                       asp-route-id="@m.Id">
+                        Supprimer
+                    </a>
+                </td>
+            </tr>
+
+        }
+
+    </table>
+</fieldset>

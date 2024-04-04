@@ -1,0 +1,32 @@
+﻿@model MovieCreateForm
+
+<form asp-action="Create" class="form">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-control">
+        Titre : <input type="text" asp-for="Title" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    @* <div class="form-control">
+        Confirmez Titre : <input type="text" asp-for="ConfirmTitle" />
+        <span asp-validation-for="ConfirmTitle" class="text-danger"></span>
+    </div> *@
+    <div class="form-control">
+        Description : <input type="text" asp-for="Description"/>
+        <span asp-validation-for="Description" class="text-warning"></span>
+    </div>
+    <div class="form-control">
+        Réalisateur : <input type="text" asp-for="RealisatorId" />
+        <span asp-validation-for="RealisatorId" class="text-info"></span>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-sm btn-success">Valider</button>
+    </div>
+
+   
+</form>
+
+@*  <div>Titre : <input type="number" /></div>
+    <div>Titre : <input type="date" /></div>
+    <div>Titre : <input type="color" /></div>
+    <div>Titre : <input type="file" /></div>
+    <div>Titre : <input type="password" /></div> *@

@@ -1,0 +1,10 @@
+C:\DEV\ASP\TFCyber_ASP_Demo_Archi\DBMovieASP\bin\Debug\DBMovieASP.dacpac
+C:\DEV\ASP\TFCyber_ASP_Demo_Archi\DBMovieASP\bin\Debug\DBMovieASP.dll
+C:\DEV\ASP\TFCyber_ASP_Demo_Archi\DBMovieASP\bin\Debug\DBMovieASP.pdb
+C:\DEV\ASP\TFCyber_ASP_Demo_Archi\DBMovieASP\obj\Debug\DBMovieASP.sqlproj.AssemblyReference.cache
+C:\DEV\ASP\TFCyber_ASP_Demo_Archi\DBMovieASP\obj\Debug\DBMovieASP.dll
+C:\DEV\ASP\TFCyber_ASP_Demo_Archi\DBMovieASP\obj\Debug\DBMovieASP.pdb
+C:\DEV\ASP\TFCyber_ASP_Demo_Archi\DBMovieASP\obj\Debug\Model.xml
+C:\DEV\ASP\TFCyber_ASP_Demo_Archi\DBMovieASP\obj\Debug\refactor.xml
+C:\DEV\ASP\TFCyber_ASP_Demo_Archi\DBMovieASP\obj\Debug\postdeploy.sql
+C:\DEV\ASP\TFCyber_ASP_Demo_Archi\DBMovieASP\obj\Debug\predeploy.sql
